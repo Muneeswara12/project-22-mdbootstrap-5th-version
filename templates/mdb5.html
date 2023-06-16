@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+</head>
+<body>
+    <button type="button" class="btn btn-primary">Button</button>
+
+    <button
+  type="button"
+  class="btn btn-lg btn-danger"
+  data-mdb-toggle="popover"
+  title="Popover title"
+  data-mdb-content="And here's some amazing content. It's very engaging. Right?"
+>
+  Click to toggle popover
+</button>
+
+    <script src="{% static 'js/mdb.min.js' %}"></script>
+</body>
+</html>
